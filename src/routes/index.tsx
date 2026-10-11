@@ -87,6 +87,7 @@ function Index() {
         </section>
         <FeatureShowcase />
         <PlatformOverview />
+        <TestimonialCarousel />
         <section id="tentang" className="scroll-mt-8 border-b">
           <div className="mx-auto max-w-7xl px-6 py-14 lg:px-12">
             <div className="mb-9 flex flex-wrap items-end justify-between gap-4">
