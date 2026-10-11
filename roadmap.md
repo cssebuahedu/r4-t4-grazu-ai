@@ -117,3 +117,7 @@
 # Phase 12H-2 — Landing Page Statistics & Platform Value
 - [x] Add fixture-derived statistics band and interface-based platform-value section below the showcase.
 - [x] Verify fixture totals, disclaimer, desktop/tablet/mobile layouts, navigation, and guest chat.
+
+# Phase 12H-3 — Landing Page Testimonial Carousel
+- [x] Add homepage-only four-persona illustrative testimonial carousel with prev/next controls, dots, keyboard arrows, and preview columns on desktop.
+- [x] Verify all interactions, wrapping, visible illustrative-persona disclaimer, mobile single-slide layout, and preserved homepage sections.

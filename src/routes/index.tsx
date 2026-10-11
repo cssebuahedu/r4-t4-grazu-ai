@@ -5,6 +5,7 @@ import { pageHead } from "@/lib/grazu-navigation";
 import { GuestChat } from "@/components/grazu/guest-chat";
 import { FeatureShowcase } from "@/components/grazu/feature-showcase";
 import { PlatformOverview } from "@/components/grazu/platform-overview";
+import { TestimonialCarousel } from "@/components/grazu/testimonial-carousel";
 import jakarta from "@/assets/jakarta.jpg";
 
 export const Route = createFileRoute("/")({
@@ -86,6 +87,7 @@ function Index() {
         </section>
         <FeatureShowcase />
         <PlatformOverview />
+        <TestimonialCarousel />
         <section id="tentang" className="scroll-mt-8 border-b">
           <div className="mx-auto max-w-7xl px-6 py-14 lg:px-12">
             <div className="mb-9 flex flex-wrap items-end justify-between gap-4">
