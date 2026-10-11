@@ -105,4 +105,4 @@
 - [x] docs/audit/GRAZU_DATA_STATE_AUDIT.md (read-only)
 
 # Phase 12G-5 — User Flow Audit
-- [ ] docs/audit/GRAZU_USER_FLOW_AUDIT.md (read-only)
+- [x] docs/audit/GRAZU_USER_FLOW_AUDIT.md (read-only)
