@@ -113,3 +113,7 @@
 # Phase 12H-1 — Landing Page Feature Showcase
 - [x] Add homepage-only five-tab showcase with local dashboard previews and existing-route CTAs.
 - [x] Verify desktop/mobile tabs, links, preserved homepage, and guest chat.
+
+# Phase 12H-2 — Landing Page Statistics & Platform Value
+- [x] Add fixture-derived statistics band and interface-based platform-value section below the showcase.
+- [x] Verify fixture totals, disclaimer, desktop/tablet/mobile layouts, navigation, and guest chat.
