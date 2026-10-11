@@ -27,3 +27,4 @@
 - Keep the administrative audit trail in one store in `src/lib/audit.ts`; admin, permission, organization, and CS actions append to it so there is never a second audit system.
 - Scope client-visible product lists through one shared hook (src/lib/scope.ts); every listing page applies the same organization filter.
 - Keep the public feature showcase in a homepage-only component with static presentation data; it must not depend on or mutate application stores.
+- Derive public homepage statistics through read-only existing demo hooks and assessment fixtures; count red-team runs explicitly rather than conflating security tests with ordinary pipeline builds.
