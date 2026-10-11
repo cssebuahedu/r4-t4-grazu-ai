@@ -5,6 +5,7 @@ import { pageHead } from "@/lib/grazu-navigation";
 import { GuestChat } from "@/components/grazu/guest-chat";
 import { FeatureShowcase } from "@/components/grazu/feature-showcase";
 import { PlatformOverview } from "@/components/grazu/platform-overview";
+import { TestimonialCarousel } from "@/components/grazu/testimonial-carousel";
 import jakarta from "@/assets/jakarta.jpg";
 
 export const Route = createFileRoute("/")({
