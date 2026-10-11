@@ -109,3 +109,7 @@
 
 # Phase 12G-6 — Remediation Roadmap
 - [x] docs/audit/GRAZU_REMEDIATION_ROADMAP.md (planning only)
+
+# Phase 12H-1 — Landing Page Feature Showcase
+- [ ] Add homepage-only five-tab showcase with local dashboard previews and existing-route CTAs.
+- [ ] Verify desktop/mobile tabs, links, preserved homepage, and guest chat.
