@@ -19,7 +19,6 @@ export function PlatformOverview() {
   ];
   const product = products.find((item) => item.id === initialAssessments[0]?.productId);
   const assessment = initialAssessments.find((item) => item.productId === product?.id);
-  const productRuns = runs.filter((run) => run.results.some((result) => result.productId === product?.id));
 
   return (
     <>
