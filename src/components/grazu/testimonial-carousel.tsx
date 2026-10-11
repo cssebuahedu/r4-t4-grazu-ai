@@ -38,6 +38,9 @@ export function TestimonialCarousel() {
   const total = testimonials.length;
   const previous = useCallback(() => setIndex((current) => (current - 1 + total) % total), [total]);
   const next = useCallback(() => setIndex((current) => (current + 1) % total), [total]);
+  const active = testimonials[index]!;
+  const previousTestimonial = testimonials[(index - 1 + total) % total]!;
+  const nextTestimonial = testimonials[(index + 1) % total]!;
 
   return (
     <section aria-labelledby="testimonial-heading" className="border-b">
@@ -71,26 +74,19 @@ export function TestimonialCarousel() {
               aria-label="Testimoni sebelumnya"
               className="hidden min-w-0 cursor-pointer border-l-2 border-transparent pl-5 text-left opacity-40 transition-opacity hover:opacity-70 focus-visible:opacity-70 lg:block"
             >
-              <p className="line-clamp-3 text-sm leading-6">
-                “{testimonials[(index - 1 + total) % total].quote}”
-              </p>
-              <p className="mt-3 text-xs font-semibold">{testimonials[(index - 1 + total) % total].role}</p>
+              <p className="line-clamp-3 text-sm leading-6">“{previousTestimonial.quote}”</p>
+              <p className="mt-3 text-xs font-semibold">{previousTestimonial.role}</p>
             </button>
 
             {/* Active slide */}
-            <figure
-              aria-live="polite"
-              className="min-w-0 border-l-2 border-primary pl-5 sm:pl-7"
-            >
-              <p className="text-xs font-semibold uppercase tracking-[0.1em] text-primary">
-                {testimonials[index].role}
-              </p>
+            <figure aria-live="polite" className="min-w-0 border-l-2 border-primary pl-5 sm:pl-7">
+              <p className="text-xs font-semibold uppercase tracking-[0.1em] text-primary">{active.role}</p>
               <blockquote className="mt-5 text-lg font-medium leading-8 sm:text-xl sm:leading-9">
-                “{testimonials[index].quote}”
+                “{active.quote}”
               </blockquote>
               <figcaption className="mt-5 text-sm">
-                <span className="font-semibold">{testimonials[index].role}</span>
-                <span className="mt-1 block text-xs text-muted-foreground">{testimonials[index].context}</span>
+                <span className="font-semibold">{active.role}</span>
+                <span className="mt-1 block text-xs text-muted-foreground">{active.context}</span>
               </figcaption>
             </figure>
 
@@ -101,10 +97,8 @@ export function TestimonialCarousel() {
               aria-label="Testimoni berikutnya"
               className="hidden min-w-0 cursor-pointer border-l-2 border-transparent pl-5 text-left opacity-40 transition-opacity hover:opacity-70 focus-visible:opacity-70 lg:block"
             >
-              <p className="line-clamp-3 text-sm leading-6">
-                “{testimonials[(index + 1) % total].quote}”
-              </p>
-              <p className="mt-3 text-xs font-semibold">{testimonials[(index + 1) % total].role}</p>
+              <p className="line-clamp-3 text-sm leading-6">“{nextTestimonial.quote}”</p>
+              <p className="mt-3 text-xs font-semibold">{nextTestimonial.role}</p>
             </button>
           </div>
 
