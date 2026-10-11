@@ -108,4 +108,4 @@
 - [x] docs/audit/GRAZU_USER_FLOW_AUDIT.md (read-only)
 
 # Phase 12G-6 — Remediation Roadmap
-- [ ] docs/audit/GRAZU_REMEDIATION_ROADMAP.md (planning only)
+- [x] docs/audit/GRAZU_REMEDIATION_ROADMAP.md (planning only)
