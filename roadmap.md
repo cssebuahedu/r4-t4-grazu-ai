@@ -115,5 +115,5 @@
 - [x] Verify desktop/mobile tabs, links, preserved homepage, and guest chat.
 
 # Phase 12H-2 — Landing Page Statistics & Platform Value
-- [ ] Add fixture-derived statistics band and interface-based platform-value section below the showcase.
-- [ ] Verify fixture totals, disclaimer, desktop/tablet/mobile layouts, navigation, and guest chat.
+- [x] Add fixture-derived statistics band and interface-based platform-value section below the showcase.
+- [x] Verify fixture totals, disclaimer, desktop/tablet/mobile layouts, navigation, and guest chat.
